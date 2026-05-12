@@ -11,7 +11,7 @@ public class PracticeController {
 	 @GetMapping("/test")
 	    public String getMessage(){
 	        System.out.println("##########################");
-	        return "Hello World from psa";
+	        return "Jai Shree Ram";
 	    }
 
 }
