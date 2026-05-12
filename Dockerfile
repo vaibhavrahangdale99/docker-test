@@ -1,6 +1,6 @@
-FROM openjdk:21
+FROM eclipse-temurin:21
 
-COPY target/demo-app.jar  /usr/app/
+COPY target/demo-app.jar /usr/app/
 
 WORKDIR /usr/app/
 
