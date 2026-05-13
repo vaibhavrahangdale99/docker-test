@@ -10,7 +10,7 @@ public class PracticeController {
 	
 	 @GetMapping("/test")
 	    public String getMessage(){
-	        return "Jai Shree Ram...";
+	        return "Jai Shree Ram";
 	    }
 
 }
