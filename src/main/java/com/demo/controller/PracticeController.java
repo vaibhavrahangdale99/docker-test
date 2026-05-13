@@ -10,8 +10,7 @@ public class PracticeController {
 	
 	 @GetMapping("/test")
 	    public String getMessage(){
-	        System.out.println("##########################");
-	        return "Jai Shree Ram";
+	        return "Jai Shree Ram...";
 	    }
 
 }
